@@ -1,0 +1,55 @@
+comandos uteis ;
+para identificar dispositivos conectados no pc : cmd
+adb devices
+
+
+Dependencias:
+
+NodJS testar ( no cmd npm --version)
+
+intallar o expo (opecional) npm install -g expo-cli
+
+intalar python 2 (recomendado par o react)
+instalar jdk8 
+===========================================
+instalar o react Natvi CLI ( npm install -g react-native-cli)
+instalar android studio (instalar o android sdk, sdk plstfoorm, android device)
+cRIAR O PHAT para o androi sdk e testar no cmd( echo %ANDROID_HOME% )
+====================================================================================
+Criando um projeto:
+react-native init 
+------------
+para rodar o projeto:
+va ate a pasta do projeto no cmd e digite = react-native run-android
+======================================================================
+
+INSTALAR O GIT:
+depois de instalar no cmd
+git --version
+configurando git
+git config --global user.name "digite seu nome"
+git config --global user.email "alvaroxramos@gmail.com"
+git config --global core.editor vs code
+
+comandos basicos:
+para iniciar : git init
+verificar arquivos nao enviados : git status
+enviar um arquivo: git add nome arq
+enviar muitos arquivos: git add -A (git commit -am "")
+
+para executar um commit : git commit -m "add comentario"
+exibir log de atividades : git log // vevr tudo que ja fiz
+
+exibir o branch : git branch  // partição que voce criar (nao essencial)
+
+para voltar modificações: copiara codigo do commit 
+git reset --soft  --mixed --hard
+
+criar um branch: git brach "nome do brach"
+mudar de branch: git checkout "nome do branch"
+
+git remote add origin https://github.com/AndreJacob/Esp8266WebServer.git // adicionar url
+git push -u origin master
+
+
+============================================================
